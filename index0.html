@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>某インコのクレイジーなホームぺ―ジ！</title>
+  <meta name="description" content="某インコの頭がおかしいホームページです。 現在開発中です。">
+  <style>
+  html,body {
+  height: 100%;
+  overflow:scroll;
+  }
+  body {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  content: "";
+  background: #ffffff;
+  background: linear-gradient(to bottom,
+   #fffafa 22%, #87cefa 100%);
+  }
+  .c-grid{
+  display: grid;
+  grid-template-columns: 28% 28% 28%;
+  grid-template-rows: 28% 28%;
+  row-gap: 4%;
+  column-gap: 4%;
+  aspect-ratio: 1 / 1; 
+  margin-left:24%;
+  margin-right:16%;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  }
+
+.c-grid__item{
+  width: 100%;
+  height: 100%;
+  background:#b0ffc3;
+  border: 1px solid #000;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  transition:.5s;
+  }
+  #inko1{
+  text-align:center;
+  font-size:140%;
+  transition:.5s;
+  opacity:0.5;
+  overflow: hidden;
+  }
+  #inko1:hover{
+  opacity:1;
+  }
+  
+  #inko0{
+  font-size:190%;
+  background-color:#87ceeb;
+  font-weight: bold;
+  text-align:center;
+  letter-spacing:0.1em;
+  }
+ .c-grid__item:hover{
+  opacity:0.6;
+  }
+  #inko7{
+  text-align:center;
+  font-size:120%;
+  }
+  </style>
+ </head>
+ <body>
+ <h1 id="inko0">新・某インコのクレイジーな
+ ホームページ!</h1>
+ <p id="inko7">ここは某インコの新しいホームページだ!<br>（現在製作中でダサかったりおかしかったりします）</p>
+ <div class="c-grid">
+  <div class="c-grid__item">
+  <a id="inko1" href="index.html">某インコの
+  クレイジーなホームページ!</a></div>
+  <div class="c-grid__item">製作中</div>
+  <div class="c-grid__item">製作中</div>
+  <div class="c-grid__item">製作中</div>
+  <div class="c-grid__item">製作中</div>
+  <div class="c-grid__item">製作中</div>
+  </div>
+</body>
+</html>
