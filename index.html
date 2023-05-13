@@ -7,6 +7,7 @@
   html,body {
   height: 100%;
   overflow:scroll;
+  width:100vw;
   }
   body {
   position: fixed;
@@ -17,44 +18,10 @@
   background: linear-gradient(to bottom,
    #fffafa 22%, #b3f2ff 100%);
   }
-  .c-grid{
-  display: grid;
-  grid-template-columns: 28% 28% 28%;
-  grid-template-rows: 28% 28%;
-  row-gap: 2%;
-  column-gap: 2%;
-  aspect-ratio: 1 / 1; 
-  margin-left:30.5%;
-  margin-right:25.5%;
-  align-content: center;
-  justify-items: center;
-  align-items: center;
-  }
-
-.c-grid__item{
-  width: 100%;
-  height: 100%;
-  background:#b0ffc3;
-  border: 1px solid #000;
-  display: grid;
-  justify-content: center;
-  align-content: center;
-  transition:.5s;
-  }
-  #inko1{
-  text-align:center;
-  font-size:165%;
-  transition:.5s;
-  opacity:0.5;
-  overflow: hidden;
-  }
-  #inko1:hover{
-  opacity:1;
-  }
-  
   #inko0{
+  width:74vw;
   color:#6b8e23;
-  font-size:226%;
+  font-size:2.5em;
   background-color:#87ceeb;
   font-weight: bold;
   text-align:center;
@@ -67,27 +34,79 @@
   text-align:center;
   font-size:140%;
   }
-  #inko8{
-  text-align:center;
-  font-size:135%;
-  margin-top:12%;
+  .inko-left{
+  border-right: solid 2px #FFA07A;
+  width:26vw;
+  background-color:#d4eec7;
+  display: flex1;
+  min-width:26vw;
+  }
+  .inko-main{
+  text-align:left;
+  width:74vw:
+  display:flex2;
+  display:block;
+  }
+  .inko-right{
+  width:1vw;
+  }
+  .inko9{
+  margin:5% 3%;
+  }
+  #inko10{
+  font-size:150%;
+  }
+  .container{
+    width: 98vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  }
+  .inko9{
+  font-size:200%;
+  letter-spacing:3px;
+  font-weight:bold;
+  border-bottom: solid 2px #FFA07A;
+  }
+  .inko8{
+  text-decoration:none;
+  color:black;
+  }
+  .inko8:hover{
+  color:blue;
+  opacity:.8;
   }
   </style>
  </head>
  <body>
+ <div class="container">
+ <div class="inko-left">
+  <p id="inko10">サイト移動装置</p>
+   <p class="inko9">
+ <a class="inko8" href="https:/inko0806.github.io/newinko0806.github.io/">
+   ホーム
+ </a>
+ </p>
+  <p class="inko9">
+ <a class="inko8" href="https:/inko0806.github.io/">
+   旧ページに戻る
+ </a>
+ </p>
+ <p class="inko9">
+ <a class="inko8"
+ href="index0.html">
+ プロフィール?
+ </a>
+ </p>
+ 
+ </div>
+ <div class="inko-main">
  <h1 id="inko0">新・某インコのクレイジーな
  ホームページ!</h1>
  <p id="inko7">ここは某インコの新しいホームページだ!<br>（現在製作中でダサかったりおかしかったりします）</p>
- <h2 id="inko8">サイト移動装置</h2>
- <div class="c-grid">
-  <div class="c-grid__item">
-  <a id="inko1" href="https://inko0806.github.io/">
-  旧ページに<br>戻る</a></div>
-  <div class="c-grid__item">製作中</div>
-  <div class="c-grid__item">製作中</div>
-  <div class="c-grid__item">製作中</div>
-  <div class="c-grid__item">製作中</div>
-  <div class="c-grid__item">製作中</div>
+  </div>
+ <div class="inko-right">
+ </div> 
   </div>
 </body>
 </html>
