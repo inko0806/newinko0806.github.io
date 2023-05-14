@@ -22,6 +22,10 @@
   font-size:226%;
   text-align:center;
   }
+  #inko13{
+  font-size:150%;
+  text-align:center;
+  }
   table{
   border-collapse: collapse;
   border: solid 2px #ffa500;
@@ -118,6 +122,7 @@
   color: white;
   margin-right: 35px;
   font-size:1.2em;
+  overflow:hidden;
   }
   @media screen and ( max-width:500px )
     {
@@ -126,6 +131,26 @@
 		display: none ;	
 	}
     }
+ @media screen and ( max-width:500px )
+    {
+	.inko0
+	{
+		display: none ;	
+	}
+    }        
+    #inko13
+{
+	display: none ;		/* 非表示 */
+}
+
+/* スマホ */
+@media screen and ( max-width:479px )
+{
+	#inko13
+	{
+		display: block ;		/* 表示 */
+	}
+}      
   </style>
  </head>
  <body>
@@ -163,6 +188,7 @@
   </ul>
 </nav>
 <h1 id="inko0">クソダサい雑プロフィール</h1>
+<h1 id="inko13">クソダサい雑プロフィール</h1>
  <p id="inko2">
   <img id="inko1" src="images/inko01.PNG"
    alt="某インコの顔写真"></p>
